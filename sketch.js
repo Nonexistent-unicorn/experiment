@@ -14,7 +14,7 @@ background(248,131,121);
 
   fill(100, 20, 10);
     stroke(248, 131, 121);
-    strokeWeight(.25);
+    strokeWeight(1);
   sphere(75);
 
     fill(100, 20, 10);
