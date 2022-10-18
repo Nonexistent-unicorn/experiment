@@ -6,7 +6,6 @@ function draw() {
 background(248,131,121);
 
     noStroke();
-
     fill(100, 20, 10);
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
@@ -14,7 +13,7 @@ background(248,131,121);
 
   fill(100, 20, 10);
     stroke(248, 131, 121);
-    strokeWeight(1);
+    strokeWeight(2);
   sphere(75);
 
     fill(100, 20, 10);
@@ -28,4 +27,3 @@ background(248,131,121);
     rotateY(frameCount * 0.01);
   box(350, 350, 350)
 }
-
