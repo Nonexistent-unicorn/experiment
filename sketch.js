@@ -1,9 +1,11 @@
+
+
 function setup() {
   createCanvas(1525, 700, WEBGL);
-}
 
+}
 function draw() {
-background(0);
+  background(0)
 
     stroke(250,50,160);
     strokeWeight(2);
@@ -13,7 +15,6 @@ background(0);
   torus(150, 50);
 
     fill(250,50,160);
-  
   sphere(75)
 
     fill(100, 20, 10);
@@ -29,7 +30,7 @@ background(0);
     rotateY(frameCount * 0.01);
   box(350, 350, 350);
 
- strokeWeight(.50)
+    strokeWeight(.50)
   sphere(310)
 
 
